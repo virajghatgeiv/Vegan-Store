@@ -55,11 +55,11 @@ height: 40px;
 }
 
 .dropdown-items{
- width: 50%;
+ width: 55%;
  font-weight: 400;
  font-size: 16px;
  margin-left: 20px;
- padding: 16px 40px 2px 5px;
+ padding: 10px 40px 2px 5px;
 }
 
 .dropdown-items:not(:last-of-type){
@@ -141,7 +141,7 @@ display: block;
   transition: all 1s;
 }
 
-.step-cards>i:hover{
+.step-cards:hover i{
   transform: scale(1.1,1.1);
 }
 
@@ -174,4 +174,78 @@ display: block;
   background-color: #f69dad;
 }
 
+/* section 3 feature cards */
 
+#feature-wrapper{
+  background-color: #f7eee2;
+  padding: 0 400px;
+}
+
+#top-card{
+  
+  text-align: center;
+}
+
+#top-card > h4{
+margin: 0;
+padding-top: 100px;
+color: #91ac41;
+font-size: 24px;
+font-family: 'Caveat', ursive;
+
+}
+
+#top-card > h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+#top-card > p{
+  font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 80px;
+}
+
+#feature-flex{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.feature-cards{
+  flex: 1;
+}
+
+.feature-cards > i{
+  background-color: #e3b375;
+  padding: 40px;
+  font-size: 60px;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.feature-cards:hover i {
+  transform: scale(1.1, 1.1);
+}
+
+.feature-cards > h3{
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-weight: 600;
+}
+
+.feature-cards > p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #8b8b99;
+}
