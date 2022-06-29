@@ -305,3 +305,86 @@ font-weight: 600;
 #center-card{
   height: 260px ;
 }
+
+/* Section 5 subscribe us */
+
+#subscribe-wrapper{
+  margin-top: 80px;
+}
+
+#right-cover{
+  background-image: url('assets/strawberry-white.png');
+  background-position: left;
+  background-size: cover;
+  padding: 100px 60px 550px 90px;
+  display: inline-block;
+}
+
+#follow-container{
+  display: flex;
+  
+}
+
+#background-img{
+  width: 66.67%;
+  background-image: url('assets/left-image.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.subscribe-card{
+  
+  
+}
+
+
+.subscribe-card > h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.subscribe-card > p{
+  font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #8b8b99;
+    
+}
+
+.subscribe-card > input {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #8b8b99;
+  width: 80%;
+  font-weight: 400;
+  margin: 40px 0px 0px;
+ padding: 12px;
+box-sizing: border-box;
+}
+
+.subscribe-card > button{
+  box-sizing: border-box;
+  margin: 16px 0px 0px;
+  padding: 16px 42px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  background-color: #f69dad;
+  border-radius: 4px;
+}
+
+.subscribe-card>button:hover{
+  color: #f69dad;
+  border: 1px solid #f69dad;
+  background-color: transparent;
+  
+}
