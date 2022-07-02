@@ -215,7 +215,7 @@ font-family: 'Caveat', ursive;
 #feature-flex{
   display: flex;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
   padding-bottom: 80px;
 }
 
@@ -333,10 +333,6 @@ font-weight: 600;
   text-align: center;
 }
 
-.subscribe-card{
-  
-  
-}
 
 
 .subscribe-card > h2 {
@@ -387,4 +383,234 @@ box-sizing: border-box;
   border: 1px solid #f69dad;
   background-color: transparent;
   
+}
+
+/* Section 6 followers card */
+
+#follower-wrapper{
+  margin-top: 4px;
+  display: flex;
+  background-color: #f7ffdc;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.count-card{
+  margin: 60px 80px;
+}
+
+.count-card > h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.count-card > p{
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  color: #5acda6;
+}
+
+/* Section 7 video section */
+
+#video-wrapper{
+  text-align: center;
+  margin-top: 90px;
+}
+
+#video-wrapper > h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  margin: 0 0 50px 0;
+  padding: 0;
+  color: #8b8b99;
+}
+
+#line-space{
+  display: inline-block;
+  width: 96px;
+  height: 1px;
+  border-top: 1px solid chocolate;
+  margin-bottom: 36px ;
+}
+
+
+#video{
+  display: block;
+  width: 100%;
+  height: 425px;
+}
+
+/* section 8 contact us  */
+
+#contact-us-wrapper{
+  display: flex;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+#contact-us-wrapper > div >h4{
+  margin: 0;
+  padding-top: 100px;
+  color: #91ac41;
+  font-size: 24px;
+  font-family: 'Caveat', ursive;
+}
+
+#contact-us-wrapper>div>h1{
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 8.8px;
+  line-height: 1.2
+}
+
+#contact-us-wrapper>div>p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #8b8b99;
+}
+
+#contact-us-wrapper>div>h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.input-box{
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid #e5e6ec;
+  border-radius: 6px;
+  margin-top: 16px;
+  outline: none;
+  
+}
+
+#contact-us{
+  width: 50%;
+  
+}
+
+#user-form{
+  width: 40%;
+}
+#contact-us-wrapper>div>button{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #91ac41;
+  padding: 9px 34px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+/* footer */
+footer{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  background-color: #232323;
+  color: #fff;
+  padding: 40px 0px;
+}
+
+
+/* resposive section */
+@media screen and (max-width: 900px){
+
+  .menu-items{
+    display: none;
+  }
+
+  #content-wrapper1{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  #step-card-wrapper{
+    flex-direction: column;
+  }
+  
+  .step-cards{
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #feature-flex{
+    flex-direction: column;
+  }
+
+  #feature-wrapper{
+    padding: 0;
+  }
+
+  .feature-cards{
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  #testimonial-wrapper{
+    flex-direction: column;
+  }
+
+  .testimonial-cards{
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
+  }
+  #center-card{
+    width: 100%;
+      height: 350px;
+      box-sizing: border-box;
+  }
+
+  #follow-container{
+    flex-direction: column;
+  }
+
+  #background-img{
+    width: 100%;
+  }
+
+  #follower-wrapper{
+    flex-direction: column;
+  }
+
+  #contact-us-wrapper{
+    flex-direction: column;
+    
+    
+  }
+
+    #contact-us-wrapper>div{
+      width: 100%;
+      padding: 5px 15px;
+      margin-right: 5px;
+    }
+
+  .input-box{
+    width:90%;
+  }
 }
