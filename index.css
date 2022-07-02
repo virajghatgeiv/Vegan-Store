@@ -100,11 +100,14 @@ display: block;
 }
 
 #content-wrapper1{
- padding: 300px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 100vh;
 }
 
 #landing-wrapper > div > h1{
- margin: 0px;
+ margin: 0px 0 20px 0;
  font-family: 'Poppins', sans-serif;
  font-size: 44px;
  font-weight: 600;
@@ -310,6 +313,7 @@ font-weight: 600;
 
 #subscribe-wrapper{
   margin-top: 80px;
+  display: flex;
 }
 
 #right-cover{
@@ -318,19 +322,13 @@ font-weight: 600;
   background-size: cover;
   padding: 100px 60px 550px 90px;
   display: inline-block;
+  width: 33.33%;
 }
 
-#follow-container{
-  display: flex;
-  
-}
 
-#background-img{
-  width: 66.67%;
-  background-image: url('assets/left-image.jpg');
-  background-position: center;
-  background-size: cover;
-  text-align: center;
+#background-img {
+  width: 67%;
+  display: inline-block;
 }
 
 
@@ -539,13 +537,6 @@ footer{
     display: none;
   }
 
-  #content-wrapper1{
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-  }
   
   #step-card-wrapper{
     flex-direction: column;
@@ -586,13 +577,17 @@ footer{
       box-sizing: border-box;
   }
 
-  #follow-container{
+    #subscribe-wrapper {
     flex-direction: column;
   }
 
-  #background-img{
-    width: 100%;
+  #background-img >img{
+    width: 100vw;
   }
+
+    #right-cover {
+      width: 100%;
+    }
 
   #follower-wrapper{
     flex-direction: column;
